@@ -1,0 +1,29 @@
+{
+  "name": "slack-zendesk-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindreslungaard/slack-zendesk-sync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindreslungaard/slack-zendesk-sync/issues"
+  },
+  "homepage": "https://github.com/sindreslungaard/slack-zendesk-sync#readme",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/mongoose": "^5.5.12",
+    "@types/winston": "^2.4.4",
+    "dotenv": "^8.0.0",
+    "mongoose": "^5.6.9",
+    "slackbots": "^1.2.0",
+    "winston": "^3.2.1"
+  }
+}
