@@ -11,8 +11,10 @@ declare module 'slackbots' {
         channels: any
 
         on(event: string, callback: Function): void
-        postMessage(channel: string, message: string): Promise<any>
-        updateMessage(channel: string, ts: string, message: string): void
+        postMessage(channel: string, message: string, params?: any): Promise<any>
+        updateMessage(channel: string, ts: string, message: string, params?: any): void
+        _api(methodName: string, params: any): void
+
     }
 
     export = SlackBot
