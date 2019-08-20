@@ -16,7 +16,7 @@ app.use(express.json())
 
 app.use((req: Request, res: Response, next: NextFunction) => {
 
-    if(!req.headers.authorization || req.headers.authorization !== process.env.SECRET) {
+    if(!req.query.secret || req.query.secret !== process.env.SECRET) {
         logger.warn("Attempt to use the API with wrong secret logged")
         return res.status(403).send()
     }
