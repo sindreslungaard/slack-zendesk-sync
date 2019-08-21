@@ -2,6 +2,8 @@
 
 Posts a message to Slack for new tickets created in Zendesk and continuously updates it when the ticket changes. This is an alternative to using webhooks or the official Slack bot for Zendesk which both sends a new message to the channel when tickets update.
 
+![Preview](https://i.imgur.com/6xe4TY3.gif)
+
 # How to install
 
 1. [Create a new Slack bot in your workspace](https://get.slack.help/hc/en-us/articles/115005265703-Create-a-bot-for-your-workspace)
@@ -40,4 +42,10 @@ JSON Body:
  "assignee": "{{ticket.assignee.email}}",
  "requester": "{{ticket.requester.email}}"
 }
+```
+5. Install and run the app with:
+```
+npm install
+npm build
+npm start
 ```
