@@ -24,7 +24,7 @@
     "@types/mongoose": "^5.5.12",
     "@types/winston": "^2.4.4",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.6.9",
     "slackbots": "^1.2.0",
     "typescript": "^3.5.3",
